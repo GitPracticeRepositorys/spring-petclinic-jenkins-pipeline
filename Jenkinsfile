@@ -7,7 +7,7 @@ pipeline {
   agent any
   tools {
     maven 'MAVEN_3.8.5'
-    jdk '11.0.16'
+    jdk 'JDK11'
   } 
   stages {
     stage('Cloning Git') {
