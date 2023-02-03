@@ -1,9 +1,4 @@
 pipeline {
-  environment {
-    registry = "tyitzhak/spring-petclinic-hub"
-    registryCredential = 'docker-hub'
-    dockerImage = ''
-  }
   agent any
   tools {
     maven 'MAVEN_3.6.3'
